@@ -49,7 +49,7 @@ end
 
 # Finds and returns the largest integer value the array
 # Assumes that the array is not sorted.
-# Time complexity: ?
+# Time complexity: O(n)
 # Space complexity: ?
 def find_largest(array, length)
   largest_number = array[0]
@@ -63,7 +63,7 @@ end
 
 # Finds and returns the smallest integer value in the array
 # Assumes that the array is not sorted.
-# Time complexity: ?
+# Time complexity: O(n)
 # Space complexity: ?
 def find_smallest(array, length)
   smallest_number = array[0]
@@ -76,7 +76,7 @@ def find_smallest(array, length)
 end
 
 # Reverses the values in the integer array in place
-# Time complexity: ?
+# Time complexity: O(n)
 # Space complexity: ?
 def reverse(array, length)
   i = 0
@@ -91,7 +91,7 @@ end
 
 # For an array sorted in ascending order, searches for 'value_to_find'.
 # Returns true if found, false otherwise.
-# Time complexity: ?
+# Time complexity: O(log n)? O(1)?
 # Space complexity: ?
 def binary_search(array, length, value_to_find)
   low = array[0]
